@@ -86,7 +86,7 @@ http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&a
 >
 > - 동일 사용자에게 적립금 중복 지급을 방지하기 위해, 개발사의 `회원 ID` 와 `[AD_ID]` 값을 기준으로 중복지급을 막아주시기 바랍니다.
 
-## 🚀⠀Web 오퍼월 노출
+## 🚀⠀Web 오퍼월 표시
 
 - URL
   ```
