@@ -116,12 +116,12 @@ http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&a
       var params = "ak=" + appKey + "&uid=" + encodeURIComponent(userId) + "&ud=" + encodeURIComponent(userData);
 
       if (testMode) {
-      params += "&tm=1";
-    }
+        params += "&tm=1";
+      }
 
       function showOfferwall() {
-      window.open("https://www.appang.kr/nas/ow/oww.asp?" + params, "NasWebOfferWall");
-    }
+        window.open("https://www.appang.kr/nas/ow/oww.asp?" + params, "NasWebOfferWall");
+      }
     </script>
   </head>
   <body>
