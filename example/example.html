@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <script>
+    var appKey = ""; // 매체 등록 후 발급 받은 32자리 앱 KEY 입력
+    var userId = ""; // 회원 고유 ID 입력
+    var userData = ""; // 적립 콜백 URL 호출 시 받을 "회원 정의 데이터" 값 입력
+    var testMode = true; // true 로 설정하면 테스트 광고가 노출됩니다. (개발시에는 true 로 설정하고, 배포시에는 false 로 설정)
+
+    var params = "ak=" + appKey + "&uid=" + encodeURIComponent(userId) + "&ud=" + encodeURIComponent(userData);
+
+    if (testMode) {
+      params += "&tm=1";
+    }
+
+    function showOfferwall() {
+      window.open("https://www.appang.kr/nas/ow/oww.asp?" + params, "NasWebOfferWall");
+    }
+  </script>
+</head>
+<body>
+  <button onclick="showOfferwall()">오퍼월 표시</button>
+</body>
+</html>
