@@ -61,12 +61,11 @@ Web 오퍼월을 사용하려면, `개발자 서버 사용`을 선택해야합�
 - `[AD_ID]` : 광고 ID
 - `[AD_KEY]` : 광고 KEY
 - `[AD_NAME]` : 광고명
-- `[AD_TYPE]` : 광고구분 (CPI, CPE, CPA, CPC, FACEBOOK)
-- `[USER_ADID]` : 사용자 기기 36자리 광고 ID (Android : ADID, iOS : IDFA)
+- `[AD_TYPE]` : 광고구분 (CPA, CPC)
 - `[USER_IP]` : 사용자 IP 주소
 
 ```
-http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&ai=[AD_ID]&ak=[AD_KEY]&n=[AD_NAME]&t=[AD_TYPE]&adid=[USER_ADID]&ip=[USER_IP]`
+http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&ai=[AD_ID]&ak=[AD_KEY]&n=[AD_NAME]&t=[AD_TYPE]&ip=[USER_IP]`
 ```
 
 개발자 서버의 웹페이지가 `HTTP 200` 상태값을 리턴하면 `콜백 URL`을 더 이상 호출하지 않고 중지됩니다.
