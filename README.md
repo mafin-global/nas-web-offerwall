@@ -89,7 +89,7 @@ http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&a
 
 - URL
   ```
-  https://www.appang.kr/nas/ow/oww.asp
+  https://ow.appang.kr/oww
   ```
 
 - 파라메터
@@ -119,7 +119,7 @@ http://server.kr/callback.asp?sid=[SEQ_ID]&ud=[USER_DATA]&p=[PRICE]&r=[REWARD]&a
       }
 
       function showOfferwall() {
-        window.open("https://www.appang.kr/nas/ow/oww.asp?" + params, "NasWebOfferWall");
+        window.open("https://ow.appang.kr/oww?" + params, "NasWebOfferWall");
       }
     </script>
   </head>
